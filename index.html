@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+        <form name="form_timer" class="timer">
+            <div class="timer-clock">
+                <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+            </div>
+            <div class="timer-control">
+                <button type="button" name="start">start</button>
+                <button type="button" name="pause">pause</button>
+                <button type="button" name="reset">reset</button>
+            </div>
+        </form>
+        <div class="toDo">
+            <input type="text" id="toDo_add" placeholder="Add a to-do item">
+            <div id="toDo-items"></div>
+        </div>
+    </main>
+
+    <script src="toDo.js"></script>
+    <script src="timer.js"></script>
+</body>
+</html>
