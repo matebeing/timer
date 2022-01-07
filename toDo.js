@@ -17,11 +17,12 @@ input.addEventListener('keypress', (e) => {
     }
 })
 
-
 function handleChange(checkbox) {
     if(checkbox.checked == true){
         checkbox.parentElement.style.opacity = "0.5"
+        checkbox.parentElement.style.textDecoration = "line-through"
     }else{
         checkbox.parentElement.style.opacity = "1"
+        checkbox.parentElement.style.textDecoration = "none"
     }
 }
