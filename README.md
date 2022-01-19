@@ -1,2 +1,3 @@
-# timer
-An basic timer with to-do list
+<p align="center">
+  <img src="https://i.imgur.com/Z2ucHT2.png">
+</p>
